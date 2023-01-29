@@ -102,6 +102,7 @@ const Logica = () => {
       setMensagem("Digite um valor antes de escolher uma moeda estrangeira.")
       console.log("O usuário não procedeu corretamente.")
     }
+    setMoedaSelecionada("")
 return (
     isNaN(moedaConvertida) ? moedaConvertida = 0 : ""
 )
