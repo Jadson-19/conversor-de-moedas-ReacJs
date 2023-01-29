@@ -157,7 +157,7 @@ return (
 
                         <input
                             className="button"
-                            type="button"
+                            type="reset"
                             name="converter"
                             value="CONVERTER"
                             onClick={() => converterMoeda()}
