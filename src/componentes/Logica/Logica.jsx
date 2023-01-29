@@ -102,6 +102,7 @@ const Logica = () => {
       setMensagem("Digite um valor antes de escolher uma moeda estrangeira.")
       console.log("O usuário não procedeu corretamente.")
     }
+    setInputValor("")
     setMoedaSelecionada("")
 return (
     isNaN(moedaConvertida) ? moedaConvertida = 0 : ""
@@ -156,7 +157,7 @@ return (
 
                         <input
                             className="button"
-                            type="reset"
+                            type="button"
                             name="converter"
                             value="CONVERTER"
                             onClick={() => converterMoeda()}
